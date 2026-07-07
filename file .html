@@ -1,0 +1,86 @@
+  install java
+  
+  wget https://dlcdn.apache.org/maven/maven-3/3.9.16/binaries/apache-maven-3.9.16-bin.tar.gz
+   64  tar -zxvf apache-maven-3.9.16-bin.tar.gz
+   65  ls
+   66  rm -rf practice
+   67  rm -rf apache-maven-3.9.16-bin.tar.gz
+   68  ls
+   69  rm -rf maven
+   70  ls
+   71  mv apache-maven-3.9.16 maven
+   72  echo " export PATH = /root/maven/bin:$PATH">>.bashrc
+   73  cat .bashrc
+   74  source .bashrc
+   75  export PATH=/root/maven/bin:$PATH
+   76  nano ~/.bashrc
+   77  source ~/.bashrc
+   78  maven --version
+   79  echo $PATH
+   80  mvn --version
+
+
+
+
+
+   clone next
+
+   git clone https://github.com/Suprita-Gond/prac1.git
+   83  ls
+   84  cd prac1
+   85  ls
+   86  cd prac
+   87  ls
+   88  mvn clean package -DskipTests
+   89  apt install tree
+   90  tree
+   91  cd prac1
+   92  cd
+   93  ..
+   94  cd -
+   95  ls
+   96  cd prac1
+   97  ls
+   98  cd sak_spring_EC2_mysql_RDS-main
+   99  ls
+  100  mvn clean package -DskipTests
+  101  tree
+  102  java -jar spring_app_sak-0.0.1-SNAPSHOT.jar
+  103  ls target
+  104  java -jar/target/spring_app_sak-0.0.1-SNAPSHOT.jar
+  105  java -jar target/spring_app_sak-0.0.1-SNAPSHOT.jar
+
+  mysql next
+  
+
+  apt install mysql-client-core -y
+
+
+  mysql -h copy endpoint -P 3306 -u admin -pRootadmin123
+
+
+  git clone next
+   git clone https://github.com/Suprita-Gond/prac1.git
+   83  ls
+   84  cd prac1
+   85  ls
+   86  cd prac
+   87  ls
+   88  mvn clean package -DskipTests
+   89  apt install tree
+   90  tree
+   91  cd prac1
+   92  cd
+   93  ..
+   94  cd -
+   95  ls
+   96  cd prac1
+   97  ls
+   98  cd sak_spring_EC2_mysql_RDS-main
+   99  ls
+  100  mvn clean package -DskipTests
+  101  tree
+  102  java -jar spring_app_sak-0.0.1-SNAPSHOT.jar
+  103  ls target
+  104  java -jar/target/spring_app_sak-0.0.1-SNAPSHOT.jar
+  105  java -jar target/spring_app_sak-0.0.1-SNAPSHOT.jar
